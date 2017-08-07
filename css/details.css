@@ -1,0 +1,156 @@
+body{
+	background: #fff;
+}
+header>.nav{
+	border-bottom: 1px #ccc solid;
+}
+section{
+	clear: left;
+	margin:0px;
+	position: relative;
+	left: 60px;
+	top:-72px;
+	width: 1226px;
+}
+section>.leftimg>.small_pic,section>.leftimg>.big_pic{
+	width:500px;
+	height: 500px;
+	border:1px #FF6700 solid;
+	overflow: hidden;
+}
+section>.leftimg>.small_pic>img{
+	width:400px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+section>.leftimg>.small_pic>.overlay{
+	display: none;
+	position: absolute;
+	top: 130px;
+	left: 130px;
+	width: 50px;
+	height: 50px;	
+	background-color: red;
+	opacity: 0.4;
+}
+section>.leftimg>.big_pic{
+	position: absolute;
+	top: 0px;
+	left: 501px;
+	background: #fff;
+	z-index: 4;
+	display: none;
+}
+section>.leftimg>.big_pic>img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+section>.rightcontent{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 640px;
+	height: 500px;
+	/*border:1px red solid;*/
+}
+section>.rightcontent>.sectiontop>span{
+	display: block;
+	width: 640px;
+	height: 80px;
+	font-size: 30px;
+	line-height: 80px;
+	border-bottom:1px #ccc solid;
+}
+section>.rightcontent>.sectiontop>span>span{
+	color: #FF6700;
+	margin-left: 10px;
+}
+section>.rightcontent>.sectiontop>span>a{
+	color: #656565;
+	font-size: 13px;
+	float: right;
+	margin-top: 6px;
+}
+section>.rightcontent>.sectionone>p{
+	margin-top: 34px;
+	font-size: 22px;
+}
+section>.rightcontent>.sectionone>p>span{
+	margin-left: 20px;
+	color: #999;
+}
+section>.rightcontent>.sectionone>div>div{
+	float: left;
+	width: 280px;
+	height: 50px;
+	border:1px #ccc solid;
+	margin-right: 20px;
+	margin-top: 20px;
+	line-height: 50px;
+	text-align: center;
+}
+section>.rightcontent>.sectionone>div>.firstone{
+	border:1px #FF6700 solid;
+}
+section>.rightcontent>.sectiontwo{
+	clear: both;
+	margin-top: 100px;
+}
+section>.rightcontent>.sectiontwo>p{
+	font-size: 22px;
+}
+section>.rightcontent>.sectiontwo>div>div{
+	float: left;
+	width: 280px;
+	height: 50px;
+	border:1px #ccc solid;
+	margin-right: 20px;
+	margin-top: 20px;
+	line-height: 50px;
+	text-align: center;
+}
+section>.rightcontent>.sectiontwo>div>.firsttwo{
+	border:1px #FF6700 solid;
+}
+.xxsection{
+	position: relative;
+	margin-left:60px;
+	width: 1226px;
+}
+.xxsection>.xxnr{
+	width: 100%;
+	height: 580px;
+	border:1px #ccc solid;
+	border-right: none;
+	border-left: none;
+	text-align: center;
+}
+/*.xxsection>.xxnr>span{
+	display: block;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.xxsection>.xxnr>a{
+	color: #FF6700;
+}*/
+.xxsection>.knowmore{
+	margin-top: -1px;
+	width: 100%;
+	text-align: center;
+}
+.xxsection>.knowmore>span{
+	display: block;
+	width: 100%;
+	height:120px;
+	line-height:120px;
+	font-size: 30px;
+	border:1px #ccc solid;
+	border-right: none;
+	border-left: none;
+	text-align: center;
+}

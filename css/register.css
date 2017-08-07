@@ -1,0 +1,116 @@
+body{
+	background: #eee;
+}
+section{
+	position: relative;
+	margin:0 auto;
+	width: 830px;
+	height: 633px;
+	background: #fff;
+}
+section>.content{
+	padding-top:42px; 
+	margin: 0 auto;
+	width: 400px;
+	height: 558px;
+	/*border:1px red solid;*/
+}
+section>.content>.icon{
+	margin-left: 176px;
+	margin-bottom: 26px;
+	width: 57px;
+	height: 57px;
+}
+section>.content>.tit{
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 34px;
+	/*border:1px blue solid; */
+}
+section>.content>form>input{
+	margin-left: 10px;
+	width: 365px;
+	height: 50px;
+	padding-left:15px; 
+	border: 1px #ccc solid;
+}
+section>.content>form>.imgyz{
+	width: 230px;
+}
+section>.content>form>img{
+	vertical-align: middle;
+}
+section>.content>form>span{
+	margin-left: 10px;
+	display: block;
+	color: red;
+	width: 365px;
+	height: 24px;
+	padding-left: 15px;
+	line-height: 24px;
+	/*border: 1px blue solid;*/
+}
+section>.content>form>.todownimg{
+	position: absolute;
+	right: 223px;
+	top: 199px;
+	width: 50px;
+	height: 50px;
+	border: 1px #ccc solid;
+}
+section>.content>form>.todownimg>img{
+	margin-top: 12px;
+	margin-left: 12px;
+}
+section>.content>form>.telarea{
+	position: absolute;
+	z-index: 5;
+	margin-left:10px;
+	width: 382px;
+	height: 280px;
+	/*border: 1px red solid;*/
+	background: #fff;
+	overflow: scroll;
+}
+.noservice{
+	display: none;
+}
+section>.content>form>.telarea>ul>li{
+	margin-top:-1px;
+	padding-left:15px; 
+	width: 365px;
+	height: 50px;
+	line-height: 50px;
+	border:1px #ccc solid;
+}
+section>.content>form>img{
+	position: absolute;
+	top: 356px;
+	right: 223px;
+	/*border:1px #ccc solid;*/
+}
+section>.content>form>.btn{
+	margin-top:12px;
+	width: 380px;
+	height: 50px;
+	color: #fff;
+	background: #FF6700;
+	border: none;
+}
+section>.content>p{
+	margin:8px auto;
+	width: 380px;
+	color: #888;
+	/*border: 1px blue solid;*/
+}
+section>.content>p>a{
+	color: #000;
+}
+section>p{
+	color: #656565;
+	text-align: center;
+	line-height: 30px;
+	/*border: 1px blue solid;*/
+}

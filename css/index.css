@@ -1,0 +1,490 @@
+/*首页样式*/
+body{
+	background-color: #eee;
+}
+/*头部图片样式*/
+header .top{
+	width: 100%;
+	height: 60px;
+	background: url(../images/index.png) no-repeat -580px 0px;
+}
+/*头部图片上的叉号图片样式*/
+header #ch{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right:160px;
+	top: 4px;
+}
+/*头部第一个横向菜单的样式*/
+header .menufirst{
+	width: 100%;
+	height: 40px;
+	background-color: #333;
+	color: #525252;
+}
+header .menufirst li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 8px;
+}
+header .menufirst li:nth-child(1){
+	margin-left: 60px;
+}
+header .menufirst .fk{
+	margin-right: 360px;
+}
+header .menufirst li a{
+	color: #b0b0b0;
+}
+header .menufirst li a:hover{
+	color: #fff;
+}
+/*头部第一个横向菜单最右边的div的样式*/
+.menufirst-right{
+	position: relative;
+	left:1160px;
+	top:-40px;
+	width: 120px;
+	height: 40px;
+}
+.menufirst-right>a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	color: #b0b0b0;
+	line-height: 40px;
+	text-align: center;
+	background-color: #424242;
+}
+/*购物车图片样式*/
+.shoppingcar{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+/*购物车详情样式*/
+.shopcarjs{
+	position: absolute;
+	right:0px;
+	top:40px;
+	z-index: 5;
+	display: none;
+	width: 320px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #fff;
+	/*阴影*/
+	box-shadow: 0px 7px 12px rgba(0,0,0,0.2);
+}
+.menufirst-right:hover>a{
+	color: #f93819;
+	background-color: #fff;
+}
+.menufirst-right:hover>.shopcarjs{
+	display: block;
+}
+header .nav{
+	clear: left;
+	position: relative;
+	top: -40px;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	/*border:1px red solid;*/
+}
+header .nav .icon{
+	clear: left;
+	float: left;
+	width: 57px;
+	height: 57px;
+	margin-left: 60px;
+	margin-top: 21px; 
+}
+header .nav .lw{
+	float: left;
+	width: 163px;
+	height: 66px;
+	margin-left: 10px;
+	margin-top: 16px; 
+}
+/*头部第二个横向菜单的样式*/
+header .nav .menusecond{
+	clear: left;
+	position: relative;
+	top:-82px;
+	left: 300px;
+	width: 550px;
+	height:100px;
+}
+header .nav .menusecond>li{
+	float: left;
+}
+header .nav .menusecond>li>a{
+	display: block;
+	height:100px;
+	margin-right:19px; 
+	line-height: 100px;
+	/*border: 1px green solid;*//
+}
+/*触摸大屏头部第二个横向菜单的li会出现被隐藏的内容*/
+header .nav .menusecond>li:hover>.menu-bottom{
+	visibility: visible;
+}
+header .nav .menusecond>li:hover>a{
+	color: #f93819;
+}
+header .nav .menusecond:hover>li>.menu-bottom>div{
+	opacity:1;
+	height: 230px;
+	transition: all 0.4s;
+}
+header .nav .menusecond>li:hover>.menu-bottom>div>ul>li{
+	margin-left: 40px;
+	opacity: 1;
+	transition: all 0.6s 0.3s linear;
+}
+/*头部第二个横向菜单的下滑具体内容的样式*/
+header .nav .menusecond>li>.menu-bottom{
+	position: absolute;
+	left:-300px;
+	top: 100px;
+	z-index: 3;
+	width: 1367px;
+	height:230px;
+	visibility: hidden;
+}
+header .nav .menusecond>li>.menu-bottom>div{
+	position: absolute;
+	left:0px;
+	top: 0px;
+	z-index: 4;
+	overflow: hidden;
+	width: 1367px;
+	height:0px;
+	opacity:0;
+	border-top:1px #ccc solid;
+	background-color: #fff;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+	transition: all 0.4s;
+}
+header .nav .menusecond>li>.menu-bottom>div>ul{
+	position: absolute;
+	left:0px;
+	top: 0px;
+	z-index: 5;
+	clear:left;
+	margin-left:64px;
+	width: 1320px;
+	height:170px;
+	margin-top: 36px;
+}
+header .nav .menusecond li ul li{
+	float: left;
+	margin-left: 60px;
+	opacity: 0;
+	text-align: center;
+}
+header .nav .menusecond li ul li a{
+	display: block;
+	height:144px;
+	line-height: 26px;
+}
+header .nav .menusecond li ul li a img{
+	width: 160px;
+	height: 110px;
+}
+header .nav .menusecond li ul li a:hover{
+	color: #000;
+}
+header .nav .menusecond li ul li p{
+	color: #f93819;
+}
+header .nav .menuthird{
+	clear:left;
+	position: absolute;
+	left: 844px;
+	top:-1px;
+	width: 200px;
+	height:100px;
+}
+header .nav .menuthird li{
+	float: left;
+	margin-right: 19px;
+}
+header .nav .menuthird>li>a{
+	display: block;
+	height:100px;
+	line-height: 100px;
+}
+/*头部搜索框样式*/
+header .nav .searchtxt{
+	clear:left;
+	position: absolute;
+	left: 988px;
+	top:0px;
+	margin-top: 25px;
+	padding-left: 10px;
+	width: 228px;
+	height: 50px;
+	border:1px #FF6700 solid;
+}
+header .nav .xiaomi{
+	position: absolute;
+	left: 1080px;
+	top:42px;
+}
+header .nav .xiaomi a{
+	padding:1px 5px;
+	color: #666;
+	background-color: #eee;
+}
+header .nav .xiaomi a:hover{
+	color:#fff;
+	background-color: #FF6700;
+}
+header .nav .dianshi{
+	position: absolute;
+	left: 1140px;
+	top:42px;
+}
+header .nav .dianshi a{
+	padding: 1px 5px;
+	color: #666;
+	background-color: #eee;
+}
+header .nav .dianshi a:hover{
+	color:#fff;
+	background-color: #FF6700;
+}
+header .nav .search{
+	position: absolute;
+	left: 1227px;
+	top:0px;
+	margin-top: 25px;
+	width: 50px;
+	height: 50px;
+	border:1px #FF6700 solid;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
+header .nav .search img{
+	width: 24px;
+	height: 24px;
+	margin: 13px;
+}
+header .nav .search-menu{
+	position: absolute;
+	left: 988px;
+	top:76px;
+	z-index: 4;
+	display: none;
+	width: 238px;
+	height: 300px;
+	background: #fff;
+	border:1px #FF6700 solid;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
+header .nav .search-menu>li{
+	float:left;
+	width: 117px;
+	height: 300px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+}
+header .nav .search-menu>li>ul>li{
+	height: 30px;
+	line-height: 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   */
+}
+header .nav .search-menu>li>ul{
+	padding:0 12px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+}
+header .nav .search-menu>li:nth-child(2)>ul>li{
+	text-align: right;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+}
+header .nav .search-menu>li:nth-child(1)>ul>li>a{
+	color: #000;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+header .nav .search-menu>li:nth-child(1)>ul>li>a:hover{
+	color: #000;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+header .nav .search-menu>li:nth-child(2)>ul>li>a{
+	color: #888;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+header .nav .search-menu>li:nth-child(2)>ul>li>a:hover{
+	color: #888;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+/*首页中间内容部分*/
+.content{
+	clear: left;
+	margin:0px;
+	position: relative;
+	left: 60px;
+	top:-122px;
+	width: 1226px;
+	/*background: green;*/
+}
+.content>.banner{
+	position: relative;
+	left: 0px;
+	top:0px;
+}
+.content>.banner>.imgnum{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+.content>.banner>.imgnum>div{
+	float: left;
+	margin:0 2px;
+	width: 8px;
+	height: 8px;
+	background: rgba(0,0,0,0.5);
+	border:2px #777 solid;
+	border-radius: 50%;
+}
+.content>.banner>.imgnum>div:nth-child(1){	
+	background: #ccc;
+}
+.content>.banner>.jtleft,.content>.banner>.jtright{
+	position: absolute;
+	top: 190px;
+	width: 44px;
+	height: 80px;
+	/*border:1px red solid;*/
+}
+.content>.banner>.jtleft>img,.content>.banner>.jtright>img{
+	width: 44px;
+	height: 60px;
+	margin:10px 0;
+}
+.content>.banner>.jtleft{
+	left: 236px;
+}
+.content>.banner>.jtright{
+	right: 0px;
+}
+.content>.banner>.jtleft:hover{
+	background: rgba(0,0,0,0.5);
+}
+.content>.banner>.jtright:hover{
+	background: rgba(0,0,0,0.5);
+}
+/*banner上的左边侧边栏*/
+.content>.leftmenu{
+	position: absolute;
+	left: 0px;
+	top:0px;
+	width: 236px;
+	height: 460px;
+	background: rgba(0,0,0,0.5);
+}
+.content>.leftmenu>.menucontent{
+	position: relative;
+	font-size: 15px;
+	margin-top:16px;
+}
+.content>.leftmenu>.menucontent>li>a{
+	width: 210px;
+	display: block;
+	height: 43px;
+	padding-left:26px; 
+	text-align: left;
+	line-height: 43px;
+}
+.content>.leftmenu>.menucontent>li>a>img{
+	position: absolute;
+	right:26px;
+	margin-top: 13px;
+}
+.content>.leftmenu>.menucontent>li>a{
+	color:#fff;
+}
+.content>.leftmenu>.menucontent>li:hover>a{
+	color:#fff;
+	background-color: #FF6700;
+}
+.content>.leftmenu>.menucontent>li>.menu-right{
+	position: absolute;
+	left:236px;
+	top:-16px;
+	display: none;
+	width: 260px;
+	height: 460px;
+	/*border:1px black solid;*/
+	background: #fff;
+}
+.content>.leftmenu>.menucontent>li>.menu-right>ul>li{
+	width: 260px;
+	height: 76px;
+	line-height: 76px;
+	/*border:1px red solid;*/
+}
+.content>.leftmenu>.menucontent>li>.menu-right>ul>li>img{
+	vertical-align: middle;
+	margin-right:15px;
+	margin-left:20px;
+}
+.content>.leftmenu>.menucontent>li>.menu-right>ul>li>div{
+	float: right;
+	width: 64px;
+	height: 26px;
+	margin-right:20px;
+	margin-top:24px;
+	text-align: center;
+	line-height: 26px;
+	border: 1px #FF6700 solid;
+}
+.content>.leftmenu>.menucontent>li>.menu-right>ul>li>div:hover{
+	background: #FF6700;
+	color:#fff;
+}
+/*banner上的左边侧边栏,碰到每一个li,会出现拓展内容*/
+.content>.leftmenu>.menucontent>li:hover>.menu-right{
+	display: block;
+}
+/*banner图下面的内容*/
+.content>.bannerbottom{
+	margin-top: 14px;
+	width: 1226px;
+	height: 170px;
+	/*border:1px black solid;*/
+}
+.content>.bannerbottom>.bbleft{
+	float: left;
+	margin-right: 14px;
+	width: 234px;
+	height: 170px;
+	text-align: center;
+}
+.content>.bannerbottom>.bbleft>div{
+	float: left;
+	width: 78px;
+	height: 85px;
+	color: #ccc;
+	background: #5F5750;
+}
+.content>.bannerbottom>.bbleft>div>img{
+	margin-top:22px;
+}
+.content>.bannerbottom>.bbleft>div>img:hover{
+	transform: rotate(360deg);
+	transition:transform 0.4s;
+}
+.content>.bannerbottom>.bbleft>div:hover{
+	color: #fff;
+}
+.content>.bannerbottom>.bbright{
+	float: left;
+	margin-top: -1px;
+}
+.content>.bannerbottom>.bbright>img{
+	margin-left: 11px;
+	width: 314px;
+	height: 171px;
+}
+.content>.bannerbottom>.bbright>img:nth-child(1){
+	margin-left:0;
+	width: 318px;
+	height: 170px;
+}
+
+

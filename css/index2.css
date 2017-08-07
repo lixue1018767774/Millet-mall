@@ -1,0 +1,352 @@
+.product{
+	position: relative;
+	left: 60px;
+	top:-121px;
+	width: 1226px;
+	/*background: orange;*/
+}
+.product>.starproduct{
+	position: relative;
+	left: 0px;
+	top:0px;
+	padding-top: 10px; 
+	width: 1226px;
+	height: 456px;
+	background: #fff;
+	/*border:1px black solid;*/
+}
+.product>.starproduct>span{
+	display: block;
+	margin-top: 32px;
+	margin-left:2px;
+	width: 170px;
+}
+.product>.starproduct>.btn{
+	position: absolute; 
+	right: 2px;
+	top:42px;
+}
+.product>.starproduct>.btn>div{
+	float:left;
+	width:37px;
+	height:25px; 
+	border:1px #ccc solid;
+}
+.product>.starproduct>.btn>div>img{
+	margin-left:10px;
+	margin-top:2px;
+}
+.product>.starproduct>.btn>.btnr{
+	margin-left: -1px;
+}
+.product>.starproduct>.spshow{
+	position: absolute;
+	width: 100%;
+	height: 320px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+.product>.starproduct>.spshow>ul{
+	position: absolute;
+	clear: left;
+}
+.product>.starproduct>.spshow>ul>li{
+	float: left;
+	width: 235px;
+	height: 320px;
+	margin-right: 12px;
+	text-align: center;
+	/*background: #eee;*/
+}
+.product>.starproduct>.spshow>ul>li:nth-child(1){
+	margin-left: 1px;
+}
+.product>.starproduct>.spshow>ul>li:nth-child(5){
+	margin-right: 1px;
+}
+.product>.starproduct>.spshow>ul>li:nth-child(10){
+	margin-right: 1px;
+}
+.product>.starproduct>.spshow>ul>li>div a{
+	display: block;
+	width: 235px;
+	height: 260px;
+	/*border:1px blue solid;*/
+}
+.product>.starproduct>.spshow>ul>li>div a:hover{
+	color: #000;
+}
+.product>.starproduct>.spshow>ul>li>div img{
+	margin:36px 27px 16px 27px;
+	width: 180px;
+	height: 180px;
+	/*border: 1px red solid;*/
+}
+.product>.starproduct>.spshow>ul>li>div>.banlance{
+	margin-top: 10px;
+}
+.product>.starproduct>.spshow>ul>li>.line1{
+	border-top:1px #FFAC13 solid ; 
+}
+.product>.starproduct>.spshow>ul>li>.line2{
+	border-top:1px #83C44E solid ; 
+}
+.product>.starproduct>.spshow>ul>li>.line3{
+	border-top:1px #2196F3 solid ; 
+}
+.product>.starproduct>.spshow>ul>li>.line4{
+	border-top:1px #E53935 solid ; 
+}
+.product>.starproduct>.spshow>ul>li>.line5{
+	border-top:1px #00C0A5 solid ; 
+}
+/*中间部分的智能硬件部分内容的样式*/
+.product>.znproduct{
+	position: relative;
+	left: 0px;
+	top:0px;
+	margin-top: 70px;
+	width: 100%;
+	height: 668px;
+	/*border:1px red solid;*/
+}
+.product>.znproduct>span{
+	display: block;
+	margin-left:2px;
+	width: 100px;
+	/*border:1px black solid;*/
+}
+.product>.znproduct>.seemore{
+	position: absolute;
+	right: 0px;
+	top:0px;
+	margin-top: 10px;
+	margin-right:2px;
+	/*border:1px black solid;*/
+}
+.product>.znproduct>.seemore:hover{
+	color: #FF6700;
+}
+.product>.znproduct>.seemore>img{
+	vertical-align: middle;
+	margin-left:10px;
+}
+.product>.znproduct>.zpshow{
+	margin-top: 20px;
+}
+.product>.znproduct>.zpshow>div,.product>.znproduct>.zpshow>ul{
+	float: left;
+}
+.product>.znproduct>.zpshow>.list2{
+	margin-top: 12px;
+}
+.product>.znproduct>.zpshow>ul>li{
+	float: left;
+	width: 235px;
+	height: 301px;
+	margin-right: 13px;
+	text-align: center;
+	background: #fff;
+}
+.product>.znproduct>.zpshow>ul>li:nth-child(1){
+	margin-left: 12px;
+}
+.product>.znproduct>.zpshow>ul>li:nth-child(4){
+	margin-right: 1px;
+}
+.product>.znproduct>.zpshow>ul>li>div a{
+	display: block;
+	width: 235px;
+	height: 232px;
+	/*border:1px blue solid;*/
+}
+.product>.znproduct>.zpshow>ul>li>div a:hover{
+	color: #000;
+}
+.product>.znproduct>.zpshow>ul>li>div img{
+	margin:22px 27px 5px 27px;
+	width: 180px;
+	height: 180px;
+	/*border: 1px red solid;*/
+}
+.product>.znproduct>.zpshow>ul>li>div>.banlance{
+	margin-top: 8px;
+}
+.product>.znproduct>.zpshow>div:hover{
+	margin-top: -2px;
+	box-shadow: 0px 7px 15px rgba(0,0,0,0.2);
+}
+.product>.znproduct>.zpshow>ul>li:hover{
+	margin-top: -2px;
+	box-shadow: 0px 7px 15px rgba(0,0,0,0.2);
+}
+/*中间部分的搭配部分内容的样式*/
+.product>.dpproduct{
+	position: relative;
+	left: 0px;
+	top:0px;
+	margin-top: 70px;
+	width: 100%;
+	height: 668px;
+	/*border:1px red solid;*/
+}
+.product>.dpproduct>span{
+	display: block;
+	margin-left:2px;
+	width: 100px;
+	/*border:1px black solid;*/
+}
+.product>.dpproduct>.seemore{
+	position: absolute;
+	right: 0px;
+	top:0px;
+	margin-top: 10px;
+	margin-right:2px;
+	/*border:1px black solid;*/
+}
+.product>.dpproduct>.seemore:hover{
+	color: #FF6700;
+}
+.product>.dpproduct>.seemore>img{
+	vertical-align: middle;
+	margin-left:10px;
+}
+.product>.dpproduct>.zpshow{
+	margin-top: 20px;
+}
+.product>.dpproduct>.zpshow>ul{
+	float: left;
+}
+.product>.dpproduct>.zpshow>.list2{
+	margin-top: 12px;
+}
+.product>.dpproduct>.zpshow>ul>li{
+	float: left;
+	width: 235px;
+	height: 301px;
+	margin-right: 12px;
+	text-align: center;
+	background: #fff;
+	overflow: hidden;
+}
+.product>.dpproduct>.zpshow>ul>li>div{
+	position: relative;
+}
+.product>.dpproduct>.zpshow>ul>li>div>.productjs{
+	position: absolute;
+	width: 235px;
+	height: 70px;
+	margin-top: 24px;
+	visibility: hidden;
+	transition: all 0.4s;
+	color: #fff;
+	background: #FF6700;
+}
+.product>.dpproduct>.zpshow>ul>li>div>.productjs>p:nth-child(1){
+	margin-top:14px; 
+	margin-bottom: 8px;
+}
+.product>.dpproduct>.zpshow>ul>li>div>.productjs>p:nth-child(2){
+	color: rgba(255,255,255,0.7);
+}
+.product>.dpproduct>.zpshow>ul>li:nth-child(1){
+	margin-left: 1px;
+}
+.product>.dpproduct>.zpshow>ul>li:nth-child(1)>div>img{
+	margin:0px;
+	width: 235px;
+	height: 301px;
+}
+.product>.dpproduct>.zpshow>ul>li:nth-child(5){
+	margin-right: 0px;
+}
+.product>.dpproduct>.zpshow>ul>li>div a{
+	display: block;
+	width: 235px;
+	height: 232px;
+	/*border:1px blue solid;*/
+}
+.product>.dpproduct>.zpshow>ul>li>div a:hover{
+	color: #000;
+}
+.product>.dpproduct>.zpshow>ul>li>div img{
+	margin:22px 27px 5px 27px;
+	width: 180px;
+	height: 180px;
+	/*border: 1px red solid;*/
+}
+.product>.dpproduct>.zpshow>ul>li>div>.banlance{
+	margin-top: 8px;
+}
+.product>.dpproduct>.zpshow>.last{
+	float: left;
+}
+.product>.dpproduct>.zpshow>.last>div{
+	width: 235px;
+	height: 144px;
+	background: #fff;
+	/*border:1px red solid;*/
+}
+.product>.dpproduct>.zpshow>.last>div:nth-child(1){
+	position: absolute;
+	bottom: 156px;
+	right: 2px;
+}
+.product>.dpproduct>.zpshow>.last>div:nth-child(2){
+	position: absolute;
+	bottom: 1px;
+	right: 2px;
+}
+.product>.dpproduct>.zpshow>.last>div{
+	margin-top: 12px;
+}
+.product>.dpproduct>.zpshow>.last>div:nth-child(1)>p{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.product>.dpproduct>.zpshow>.last>div:nth-child(1)>p:nth-child(1){
+	margin-top: 42px;
+}
+.product>.dpproduct>.zpshow>.last>div:nth-child(1)>img{
+	float: right;
+	margin-top: -40px;
+	margin-right: 30px;
+}
+.product>.dpproduct>.zpshow>.last>div:nth-child(2)>p{
+	margin-left: 30px;
+}
+.product>.dpproduct>.zpshow>.last>div:nth-child(2)>p:nth-child(1){
+	margin-top: 42px;
+}
+.product>.dpproduct>.zpshow>.last>div:nth-child(2)>img{
+	width: 48px;
+	height: 48px;
+	float: right;
+	margin-top: -50px;
+	margin-right: 30px;
+}
+.product>.dpproduct>.zpshow>div:hover{
+	margin-top: -2px;
+	box-shadow: 0px 7px 15px rgba(0,0,0,0.2);
+}
+.product>.dpproduct>.zpshow>ul>li:hover{
+	margin-top: -2px;
+	box-shadow: 0px 7px 15px rgba(0,0,0,0.2);
+}
+.product>.dpproduct>.zpshow>ul>li:hover>div>.productjs{
+	visibility: visible;
+	margin-top: -45px;
+	transition: all 0.4s;
+}
+.product>.dpproduct>.zpshow>.last>div:hover{
+	top:-2;
+	box-shadow: 0px 7px 15px rgba(0,0,0,0.2);
+}
+.product>.dpproduct>.zpshow>.last>div:nth-child(1):hover{
+	bottom: 158px;
+	box-shadow: 0px 7px 15px rgba(0,0,0,0.2);
+}
+.product>.dpproduct>.zpshow>.last>div:nth-child(2):hover{
+	bottom: 3px;
+	box-shadow: 0px 7px 15px rgba(0,0,0,0.2);
+}

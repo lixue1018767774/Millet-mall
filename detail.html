@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小米商品详情</title>
+	<link rel="shortcut icon" href="images/index.ico">
+	<script src="jq/jquery/jquery.js"></script>
+	<link href="css/index.css" rel="stylesheet">
+	<link href="css/details.css" rel="stylesheet">
+	<link href="css/index3.css" rel="stylesheet">
+	<link href="css/all.css" rel="stylesheet">
+	<script src="js/index.js"></script>
+	<script src="js/details.js"></script>
+</head>
+<body>
+	<!-- 头部 -->
+	<header>
+		<a href="#"><div class="top"></div></a>
+		<img src="images/ch.png" id="ch">
+		<div>
+			<ul class="fontsmall  menufirst">
+				<li><a href="#">小米商城</a></li>
+				<li>|</li>
+				<li><a href="#">MIUI</a></li>
+				<li>|</li>
+				<li><a href="#">米聊</a></li>
+				<li>|</li>
+				<li><a href="#">游戏</a></li>
+				<li>|</li>
+				<li><a href="#">多看阅读</a></li>
+				<li>|</li>
+				<li><a href="#">云服务</a></li>
+				<li>|</li>
+				<li><a href="#">金融</a></li>
+				<li>|</li>
+				<li><a href="#">小米网移动版</a></li>
+				<li>|</li>
+				<li><a href="#">问题反馈</a></li>
+				<li>|</li>
+				<li class="fk"><a href="#">Select Region</a></li>
+				<li><a href="登录.html">登录</a></li>
+				<li>|</li>
+				<li><a href="注册.html">注册</a></li>
+				<li>|</li>
+				<li><a href="#">消息通知</a></li>
+			</ul>
+			<div class="menufirst-right fontsmall">
+				<a href="#"><img src="images/shopping1.png" class="shoppingcar">&nbsp;购物车(0)</a>
+				<div class="shopcarjs">购物车中还没有商品，赶紧选购吧！</div>
+			</div>
+		</div>
+		<div class="nav">
+			<a href="#"><div class="icon"><img src="images/icon.png"></div></a>
+			<a href="#"><div class="lw"><img src="images/lw.gif"></div></a>
+			<ul class="fontsmid  menusecond">
+				<li>
+					<a href="#">小米手机</a>
+					<div class="menu-bottom">
+						<div>	
+							<ul class="fontsmall">
+							<li>
+								<a href="#">
+									<img src="images/xiaomi1.jpg"><br>
+									<span>小米Note2</span>
+								</a>
+								<p>2799元起</p>
+							</li>
+							<li><a href="#"><img src="images/xiaomi2.jpg"><br><span>小米MIX</span></a><p>3499元起</p></li>
+							<li><a href="#"><img src="images/xiaomi3.jpg"><br><span>小米5s</span></a><p>1999元起</p></li>
+							<li><a href="#"><img src="images/xiaomi4.jpg"><br><span>小米5s spanlus</p></a><p>2299元起</p></li>
+							<li><a href="#"><img src="images/xiaomi5.jpg"><br><span>小米手机5</span></a><p>1599元起</p></li>
+							<li><a href="#"><img src="images/xiaomi6.jpg"><br><span>小米Max</span></a><p>1299元起</p></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">红米</a>
+					<div class="menu-bottom">
+						<div>	
+							<ul class="fontsmall">
+							<li><a href="#"><img src="images/hongmi1.jpg"><br><span>红米4</span></a><p>699元起</p></li>
+							<li><a href="#"><img src="images/hongmi2.jpg"><br><span>红米4A</span></a><p>499元起</p></li>
+							<li><a href="#"><img src="images/hongmi3.jpg"><br><span>红米Pro</span></a><p>1099元起</p></li>
+							<li><a href="#"><img src="images/hongmi4.jpg"><br><span>红米Note 4</p></a><p>899元起</p></li>
+							<li><a href="#"><img src="images/hongmi5.jpg"><br><span>红米Note 3</span></a><p>799元起</p></li>
+							<li><a href="#"><img src="images/hongmi6.jpg"><br><span>红米手机3S</span></a><p>699元起</p></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">平板 &middot; 笔记本</a>
+					<div class="menu-bottom">
+						<div>
+							<ul class="fontsmall">
+							<li><a href="#"><img src="images/pingban1.jpg"><br><span>小米平板2 16GB</span></a><p>999元起</p></li>
+							<li><a href="#"><img src="images/pingban2.jpg"><br><span>小米平板2 64GB</span></a><p>1299元起</p></li>
+							<li><a href="#"><img src="images/pingban3.jpg"><br><span>小米平板2 64GB Windows版</span></a><p>1299元起</p></li>
+							<li><a href="#"><img src="images/pingban4.jpg"><br><span>小米笔记本Air 12.5"</p></a><p>3499元起</p></li>
+							<li><a href="#"><img src="images/pingban5.jpg"><br><span>小米笔记本Air 13.3"</span></a><p>4999元起</p></li>
+							</ul>
+						</div>	
+					</div>
+				</li>
+				<li>
+					<a href="#">电视</a>
+					<div class="menu-bottom">
+						<div>	
+							<ul class="fontsmall">
+							<li><a href="#"><img src="images/dianshi1.png"><br><span>小米电视3s 43英寸</span></a><p>1799元起</p></li>
+							<li><a href="#"><img src="images/dianshi2.png"><br><span>小米电视3s 48英寸</span></a><p>1999元起</p></li>
+							<li><a href="#"><img src="images/dianshi3.png"><br><span>小米电视3s 55英寸</span></a><p>3499元起</p></li>
+							<li><a href="#"><img src="images/dianshi4.png"><br><span>小米电视3s 60英寸</p></a><p>4499元起</p></li>
+							<li><a href="#"><img src="images/dianshi5.png"><br><span>小米电视3s 65英寸</span></a><p>4499元起</p></li>
+							<li><a href="#"><img src="images/dianshi6.png"><br><span>查看全部</span></a><p>小米电视</p></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">盒子 &middot; 影音</a>
+					<div class="menu-bottom">
+						<div>	
+							<ul class="fontsmall">
+							<li><a href="#"><img src="images/hezi1.jpg"><br><span>小米盒子mini版</span></a><p>179元起</p></li>
+							<li><a href="#"><img src="images/hezi2.jpg"><br><span>小米盒子3</span></a><p>249元起</p></li>
+							<li><a href="#"><img src="images/hezi3.jpg"><br><span>小米盒子3 增强版</span></a><p>399元起</p></li>
+							<li><a href="#"><img src="images/hezi4.jpg"><br><span>小米电视主机</p></a><p>399元起</p></li>
+							<li><a href="#"><img src="images/hezi5.jpg"><br><span>小米家庭音响 金属版</span></a><p>999元起</p></li>
+							<li><a href="#"><img src="images/hezi6.jpg"><br><span>小米家庭音响 标准版</span></a><p>699元起</p></li>
+							</ul>
+						</div>	
+					</div>
+				</li>
+				<li>
+					<a href="#">路由器</a>
+					<div class="menu-bottom">
+						<div>
+							<ul class="fontsmall">
+							<li><a href="#"><img src="images/luyouqi1.jpg"><br><span>全新小米路由器</span></a><p>699元起</p></li>
+							<li><a href="#"><img src="images/luyouqi2.jpg"><br><span>小米路由器 3 1200M</span></a><p>149元起</p></li>
+							<li><a href="#"><img src="images/luyouqi3.jpg"><br><span>小米路由器 mini</span></a><p>129元起</p></li>
+							<li><a href="#"><img src="images/luyouqi4.jpg"><br><span>小米路由器 3C 300M</p></a><p>99元起</p></li>
+							<li><a href="#"><img src="images/luyouqi5.jpg"><br><span>小米路由器 青春版</span></a><p>79元起</p></li>
+							<li><a href="#"><img src="images/luyouqi6.jpg"><br><span>小米WiFi放大器</span></a><p>39元起</p></li>
+							</ul>
+						</div>	
+					</div>
+				</li>
+				<li>
+					<a href="#">智能硬件</a>
+					<div class="menu-bottom">
+						<div>	
+							<ul class="fontsmall">
+							<li><a href="#"><img src="images/zhineng1.jpg"><br><span>米家压力IH电饭煲</span></a><p>999元起</p></li>
+							<li><a href="#"><img src="images/zhineng2.jpg"><br><span>小米空气净化器 2</span></a><p>699元起</p></li>
+							<li><a href="#"><img src="images/zhineng3.jpg"><br><span>智能摄像机</span></a><p>149元起</p></li>
+							<li><a href="#"><img src="images/zhineng5.jpg"><br><span>小米净水器</span></a><p>1299元起</p></li>
+							<li><a href="#"><img src="images/zhineng6.jpg"><br><span>九号平衡车</span></a><p>1999元起</p></li>
+							<li><a href="#"><img src="images/zhineng4.jpg"><br><span>查看全部</p></a><p>智能硬件</p></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="fontsmid  menuthird">
+				<li><a href="#">服务</a></li>
+				<li><a href="#">社区</a></li>
+			</ul>
+			<input type="text" class="searchtxt">
+			<div class="search"><img src="images/search1.png"></div>
+			<div class="xiaomi fontsmall"><a href="#">小米MAX</a></div>
+			<div class="dianshi fontsmall"><a href="#">人工智能电视</a></div>
+			<ul class="search-menu fontsmall">
+				<li>
+					<ul>
+						<li><a href="#">小米手机5</a></li>
+						<li><a href="#">空气净化器2</a></li>
+						<li><a href="#">活塞耳机</a></li>
+						<li><a href="#">小米路由器</a></li>
+						<li><a href="#">移动电源</a></li>
+						<li><a href="#">运动相机</a></li>
+						<li><a href="#">小蚁摄像机</a></li>
+						<li><a href="#">小米体重秤</a></li>
+						<li><a href="#">小米插线板</a></li>
+						<li><a href="#">配件优惠套装</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href="#">约有11件</a></li>
+						<li><a href="#">约有1件</a></li>
+						<li><a href="#">约有4件</a></li>
+						<li><a href="#">约有8件</a></li>
+						<li><a href="#">约有21件</a></li>
+						<li><a href="#">约有3件</a></li>
+						<li><a href="#">约有2件</a></li>
+						<li><a href="#">约有1件</a></li>
+						<li><a href="#">约有13件</a></li>
+						<li><a href="#">约有32件</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>	
+	</header>
+	<!-- 中间内容:选购信息处-->
+	<section>
+		<div class="leftimg">
+			<div class="small_pic">
+				<img src="images1/phone1.png">
+				<span class="overlay"></span>
+			</div>
+			<div class="big_pic">
+				<img src="images1/phone1.png">
+			</div>
+		</div>
+		<div class="rightcontent">
+			<div class="sectiontop">
+				<span>购买红米手机3S<span>899元</span><a href="#">深入了解产品></a></span>
+			</div>
+			<div class="sectionone">
+				<p>1. 选择版本<span class="fontsmall">支持移动、联通、电信4G/3G/2G网络 899元</span></p>
+				<div>
+					 <div class="fontmid firstone">全网通 2GB内存＋16GB容量 指纹识别</div>
+			    	<div class="fontmid">全网通 3GB内存＋32GB容量 指纹识别</div>
+				</div>
+			</div>
+			<div class="sectiontwo">
+				<p>2. 选择颜色</p>
+				<div>
+					<div class="fontmid firsttwo">经典金色</div>
+			    	<div class="fontmid">经典银白</div>
+			    	<div class="fontmid">经典深灰</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- 中间内容:详细信息处-->
+	<div class="xxsection">
+		<div class="xxnr">
+			<!-- <span>深入了解 红米手机 3S</span>
+			<a href="#">访问 红米手机3S 页面></a> -->
+			<img src="images1/xxnr.jpg">
+		</div>
+		<div class="knowmore">
+			<span><a href="#">了解红米手机3S参数</a></span>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<footer>
+		<div class="footertop">
+			<ul class="service">
+				<li><a href="#"><img src="images1/wx1.png">预约维修服务</a></li>
+				<li class="fontbigbig">|</li>
+				<li><a href="#"><img src="images1/seven1.png">7天无理由退货</a></li>
+				<li class="fontbigbig">|</li>
+				<li><a href="#"><img src="images1/fifteen1.png">15天免费换货</a></li>
+				<li class="fontbigbig">|</li>
+				<li><a href="#"><img src="images1/lw1.png">满150元包邮</a></li>
+				<li class="fontbigbig">|</li>
+				<li><a href="#"><img src="images1/dw1.png">520余家售后网点</a></li>
+			</ul>
+			<ul class="fontmid foottitle">
+				<li>帮助中心</li>
+				<li>服务支持</li>
+				<li>线下门店</li>
+				<li>关于小米</li>
+				<li>关注我们</li>
+				<li>特色服务</li>
+			</ul>
+			<ul class="fontsmall footsection">
+				<li><a href="#">账户管理</a></li>
+				<li><a href="#">售后政策</a></li>
+				<li><a href="#">小米之家</a></li>
+				<li><a href="#">了解小米</a></li>
+				<li><a href="#">新浪微博</a></li>
+				<li><a href="#">F码通道</a></li>
+			</ul>
+			<ul class="fontsmall footsection"">
+				<li><a href="#">购物指南</a></li>
+				<li><a href="#">自助服务</a></li>
+				<li><a href="#">服务网点</a></li>
+				<li><a href="#">加入小米</a></li>
+				<li><a href="#">小米部落</a></li>
+				<li><a href="#">小米移动</a></li>
+			</ul>
+			<ul class="fontsmall footsection">
+				<li><a href="#">订单操作</a></li>
+				<li><a href="#">相关下载</a></li>
+				<li><a href="#">零售网点</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">官方微信</a></li>
+				<li><a href="#">防伪查询</a></li>
+			</ul>
+			<div class="footergg">
+				<span>400-100-5678</span>
+				<p class="fontsmall">周一至周日8:00-18:00<br>(仅收市话费)</p>
+				<div>24小时在线客服</div>
+			</div>
+		</div>
+		<div class="footerbottom">
+			<img src="images/icon.png">
+			<div class="linkz">
+				<ul class="fontsmall linktop">
+					<li><a href="#">小米商城</a></li>
+					<li>|</li>
+					<li><a href="#">MIUI</a></li>
+					<li>|</li>
+					<li><a href="#">米聊</a></li>
+					<li>|</li>
+					<li><a href="#">多看商城</a></li>
+					<li>|</li>
+					<li><a href="#">小米路由器</a></li>
+					<li>|</li>
+					<li><a href="#">视频电话</a></li>
+					<li>|</li>
+					<li><a href="#">小米后院</a></li>
+					<li>|</li>
+					<li><a href="#">小米天猫店</a></li>
+					<li>|</li>
+					<li><a href="#">小米淘宝直营店</a></li>
+					<li>|</li>
+					<li><a href="#">小米网盟</a></li>
+					<li>|</li>
+					<li><a href="#">问题反馈</a></li>
+					<li>|</li>
+					<li><a href="#">Select Region</a></li>
+				</ul>
+				<ul class="fontsmall linksection">
+					<li><a href="#">&copy;mi.com</a></li>
+					<li><a href="#">京ICP证110507号</a></li>
+					<li><a href="#">京ICP备10046444号</a></li>
+					<li><a href="#">京公安网备11010802020134号</a></li>
+					<li><a href="#">京网文[2014]0059-0009号</a></li>
+				</ul>
+				<p class="fontsmall">违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+				<div class="allnet">
+					<img src="images1/seal.png">
+					<img src="images1/v-logo-1.png">
+					<img src="images1/v-logo-2.png">
+					<img src="images1/v-logo-3.png">
+				</div>
+			</div>
+		</div>
+		<div class="xmgg">探索黑科技，小米为发烧而生！</div>
+	</footer>	
+</body>
+</html>

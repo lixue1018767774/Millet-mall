@@ -1,0 +1,238 @@
+.tv{
+	position: relative;
+	left: 60px;
+	top:-50px;
+	width: 1226px;
+	height: 342px;
+}
+.tv>span{
+	display: block;
+	margin-left:2px;
+	width: 100px;
+}
+.tv>.seemore{
+	position: absolute;
+	right: 0px;
+	top:0px;
+	margin-top: 10px;
+	margin-right:2px;
+}
+.tv>.seemore:hover{
+	color: #FF6700;
+}
+.tv>.seemore>img{
+	vertical-align: middle;
+	margin-left:10px;
+}
+.tv>.tvshow{
+	margin-top: 20px;
+}
+.tv>.tvshow>ul>li{
+	float: left;
+	width: 296px;
+	height: 288px;
+	margin-right: 13px;
+	text-align: center;
+	background: #fff;
+}
+.tv>.tvshow>ul>li:nth-child(1){
+	margin-left: 1px;
+}
+.tv>.tvshow>ul>li:nth-child(4){
+	margin-right: 0px;
+}
+.tv>.tvshow>ul>li>div>a{
+	display: block;
+	margin-top: 28px;
+	margin-bottom: 10px;
+}
+.tv>.tvshow>ul>li>div{
+	position: relative;
+}
+.tv>.tvshow>ul>li>div>.play{
+	position: absolute;
+	left:24px;
+	top:140px;
+}
+.tv>.tvshow>ul>li:hover{
+	margin-top: -2px;
+	box-shadow: 0px 7px 15px rgba(0,0,0,0.2);
+}
+.tv>.tvshow>ul>li>div>.ttshow{
+	display: none;
+}
+.tv>.tvshow>ul>li>div>.ttshow>.tvtitle{
+	width: 778px;
+	height: 80px;
+	position: fixed;
+	left: 274px;
+	top: 44px;
+	text-align: left;
+	line-height: 80px;
+	background: #fff;
+	border: 1px black solid;
+	border-bottom:none; 
+	z-index: 7;
+	padding-left:20px; 
+}
+.tv>.tvshow>ul>li>div>.ttshow>span{
+	position: fixed;
+	right: 294px;
+	top: 68px;
+	z-index: 8;
+	font-size: 24px;
+	cursor: pointer;
+	/*border: 1px black solid;*/
+}
+.tv>.tvshow>ul>li>div>.ttshow>video{
+	width: 800px;
+	position: fixed;
+	left: 274px;
+	top: 124px;
+	z-index: 7;
+}
+footer{
+	position: relative;
+	left: 0px;
+	top: 20px;
+	width: 100%;
+	height: 450px;
+	/*border: 1px red solid;*/
+}
+footer>.footertop{
+	width: 100%;
+	height: 276px;
+	background: #fff;
+}
+footer>.footertop>.service{
+	clear: both;
+	margin-left:60px;
+	width: 1226px;
+	height: 80px;
+	border-bottom: 1px #ccc solid;
+}
+footer>.footertop>.service>li{
+	float: left;
+	height: 80px;
+	margin-left:51px;
+	color: #ccc;
+	line-height: 80px;
+}
+footer>.footertop>.service>li>a{
+	color: #616161;
+}
+footer>.footertop>.service>li>a:hover{
+	color: #f87300;
+}
+footer>.footertop>.service>li>a>img{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+footer>.footertop>.foottitle,footer>.footertop>.footsection{
+	clear: left;
+	margin-left: 60px;
+}
+footer>.footertop>.foottitle>li,footer>.footertop>.footsection>li{
+	float: left;
+}
+footer>.footertop>.foottitle>li{
+	height: 80px;
+	line-height: 90px;
+	margin-right:102px;
+}
+footer>.footertop>.footsection>li{
+	height: 28px;
+	line-height: 28px;
+	margin-right:110px;
+}
+footer>.footertop>.footsection>li>a{
+	color: #757575;
+}
+footer>.footertop>.footsection>li>a:hover{
+	color: #f87300;
+}
+footer>.footertop>.footergg{
+	position: absolute;
+	right: 62px;
+	top: 118px;
+	width: 270px;
+	height: 116px;
+	text-align: center;
+	border-left: 1px #ccc solid;
+}
+footer>.footertop>.footergg>span{
+	color: #FF6700;
+	font-size: 26px;
+}
+footer>.footertop>.footergg>p{
+	color: #757575;
+}
+footer>.footertop>.footergg>div{
+	width: 120px;
+	height: 32px;
+	color: #FF6700;
+	font-size: 12px;
+	line-height: 32px;
+	margin-left: 75px;
+	margin-top: 15px;
+	border: 1px #FF6700 solid;
+}
+footer>.footertop>.footergg>div:hover{
+	color: #fff;
+	background: #ff6700;
+}
+footer>.footerbottom{
+	width: 1226px;
+	height: 57px;
+	margin-top: 30px;
+	margin-left: 60px;
+	/*border:1px blue solid;*/
+}
+footer>.footerbottom>img{
+	float: left;
+}
+footer>.footerbottom>.linkz{
+	float: left;
+	margin-left: 10px;
+}
+footer>.footerbottom>.linkz>ul{
+	clear: left;
+}
+footer>.footerbottom>.linkz>ul>li{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-right:3px;
+}
+footer>.footerbottom>.linkz>.linktop>li>a{
+	color: #555;
+}
+footer>.footerbottom>.linkz>.linksection>li>a{
+	color: #999;
+}
+footer>.footerbottom>.linkz>.linktop>li>a:hover{
+	color: #ff6700;
+}
+footer>.footerbottom>.linkz>.linksection>li>a:hover{
+	color: #ff6700;
+}
+footer>.footerbottom>.linkz>p{
+	clear: left;
+	color: #999;
+}
+footer>.footerbottom>.linkz>.allnet{
+	position: absolute;
+	right: 60px;
+	top: 322px;
+	/*border: 1px red solid;*/
+}
+footer>.xmgg{
+	width: 100%;
+	height: 86px;
+	line-height: 86px;
+	text-align: center;
+	font-family: 华文楷体;
+	font-size: 20px;
+	font-weight: bold;
+	color: #bbb;
+}

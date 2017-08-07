@@ -1,0 +1,147 @@
+body{
+	background: #eee;
+}
+section{
+	position: relative;
+	margin:0 auto;
+	width: 830px;
+	height: 633px;
+	background: #fff;
+	/*display: none;*/
+}
+section>img{
+	position: absolute;
+	right: 13px;
+	top: 13px;
+}
+section>.content{
+	padding-top:42px; 
+	margin: 0 auto;
+	width: 400px;
+	height: 558px;
+	/*border:1px red solid;*/
+}
+section>.content>.icon{
+	margin-left: 176px;
+	margin-bottom: 26px;
+	width: 57px;
+	height: 57px;
+}
+section>.content>.tit{
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 34px;
+	/*border:1px blue solid; */
+}
+section>.content>form>input{
+	margin-left: 10px;
+	width: 365px;
+	height: 50px;
+	padding-left:15px; 
+	border: 1px #ccc solid;
+}
+section>.content>form>span{
+	margin-left: 10px;
+	display: block;
+	color: red;
+	width: 365px;
+	height: 24px;
+	padding-left: 15px;
+	line-height: 24px;
+	/*border: 1px blue solid;*/
+}
+section>.content>form>.btn{
+	margin-top:12px;
+	width: 380px;
+	height: 50px;
+	color: #fff;
+	background: #FF6700;
+	border: none;
+}
+section>.content>fieldset{
+	margin: 26px auto;
+	width: 380px;
+	border-top:1px #ccc solid; 
+	border-bottom:none;
+	border-left: none;
+	border-right: none; 
+	color: #999;
+}
+section>.content>.tubiao{
+	margin:0 auto;
+	width: 128px;
+	height: 26px;
+	/*border: 1px blue solid;*/
+}
+section>.content>.tubiao>img{
+	margin-right: 20px;
+}
+section>.content>.tubiao>img:nth-child(3){
+	margin-right: 0px;
+}
+section>.content>p{
+	margin:40px auto;
+	width: 197px;
+	color: #ccc;
+	/*border: 1px blue solid;*/
+}
+section>.content>p>a{
+	color: #656565;
+	margin:0 10px;
+}
+section>.content>p>a:hover{
+	color: #f87300;
+}
+section>p{
+	color: #656565;
+	text-align: center;
+	line-height: 30px;
+	/*border: 1px blue solid;*/
+}
+.otherlogin{
+	position: relative;
+	margin:0 auto;
+	padding-top:100px;
+	width: 830px;
+	height: 533px;
+	background: #fff;
+	display: none;
+}
+.otherlogin>span{
+	position: absolute;
+	right: 30px;
+	top:20px;
+	font-size: 24px;
+	cursor:pointer;
+}
+.otherlogin>.nrong{ 
+	margin: 0 auto;
+	width: 270px;
+	height: 430px;
+	/*border:1px red solid;*/
+}
+.otherlogin>.nrong>div{
+	margin: 16px auto;
+	width: 240px;
+	color: #f87300;
+	font-size: 30px;
+	/*border:1px red solid;*/
+}
+.otherlogin>.nrong>p{
+	margin: 0 auto;
+	width: 240px;
+	color: #656565;
+	/*border:1px red solid;*/
+}
+.otherlogin>.nrong>img{
+	margin-top: 60px;
+}
+.otherlogin>p{
+	color: #656565;
+	margin-top: 32px;
+	text-align: center;
+	line-height: 30px;
+	/*border: 1px blue solid;*/
+}
